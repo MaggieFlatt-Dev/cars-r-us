@@ -1,0 +1,32 @@
+Table PaintColor {
+    id int [pk]
+    color varchar
+    price int
+}
+
+Table Interior {
+    id int [pk]
+    fabric varchar
+    price int
+}
+
+Table Technology {
+    id int [pk]
+    package varchar
+    price int
+}
+
+Table Wheels {
+    id int [pk]
+    wheel varchar
+    price int
+}
+
+Table CustomOrder {
+    id int [pk]
+    paintColorId int [ref: > PaintColor.id]
+    interiorId int [ref: > Interior.id]
+    technologyId int [ref: > Technology.id]
+    wheelsId int [ref: > Wheels.id]
+    timeStamp int 
+}

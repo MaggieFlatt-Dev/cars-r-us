@@ -1,0 +1,116 @@
+{
+  "paintColors": [
+    {
+      "id": 1,
+      "color": "Silver",
+      "price": 250
+    },
+    {
+      "id": 2,
+      "color": "Midnight Blue",
+      "price": 375
+    },
+    {
+      "id": 3,
+      "color": "Firebrick Red",
+      "price": 500
+    },
+    {
+      "id": 4,
+      "color": "Spring Green",
+      "price": 400
+    }
+  ],
+  "interiors": [
+    {
+      "id": 1,
+      "interior": "Beige fabric",
+      "price": 300
+    },
+    {
+      "id": 2,
+      "interior": "Charcoal fabric",
+      "price": 450
+    },
+    {
+      "id": 3,
+      "interior": "White Leather",
+      "price": 1200
+    },
+    {
+      "id": 4,
+      "interior": "Black Leather",
+      "price": 800
+    }
+  ],
+  "technologies": [
+    {
+      "id": 1,
+      "technology": "Basic Package",
+      "price": 400
+    },
+    {
+      "id": 2,
+      "technology": "Navigation Package",
+      "price": 600
+    },
+    {
+      "id": 3,
+      "technology": "Visibility Package",
+      "price": 750
+    },
+    {
+      "id": 4,
+      "technology": "Ultra Package",
+      "price": 1500
+    }
+  ],
+  "wheels": [
+    {
+      "id": 1,
+      "wheel": "17-inch Pair Radial",
+      "price": 650
+    },
+    {
+      "id": 2,
+      "wheel": "17-inch Pair Radial Black",
+      "price": 900
+    },
+    {
+      "id": 3,
+      "wheel": "18-inch Pair Spoke Silver",
+      "price": 1200
+    },
+    {
+      "id": 4,
+      "wheel": "18-inch Pair Spoke Black",
+      "price": 1500
+    }
+  ],
+  "orders": [
+    {
+      "paintColorId": 2,
+      "interiorId": 4,
+      "technologyId": 4,
+      "wheelsId": 2,
+      "orderDate": "2026-01-04T22:12:22.438Z",
+      "id": 1
+    },
+    {
+      "paintColorId": 3,
+      "interiorId": 3,
+      "technologyId": 3,
+      "wheelsId": 4,
+      "orderDate": "2026-01-04T22:56:01.866Z",
+      "id": 2
+    },
+    {
+      "paintColorId": 1,
+      "interiorId": 1,
+      "technologyId": 2,
+      "wheelsId": 3,
+      "orderDate": "2026-01-04T22:58:32.969Z",
+      "id": 3
+    }
+  ]
+}
